@@ -23,7 +23,7 @@ void main() {
                 firstDate: ParamFactory.firstDate,
                 lastDate: ParamFactory.lastDate,
                 initialDate: ParamFactory.initialDate,
-                onDateSelected: (dateTime) {},
+                onDateSelected: (dateTime) {}, dayHeight: 70,
               ),
             );
 
@@ -42,7 +42,7 @@ void main() {
                   firstDate: ParamFactory.firstDate,
                   lastDate: ParamFactory.lastDate,
                   initialDate: ParamFactory.initialDate,
-                  onDateSelected: (dateTime) {},
+                  onDateSelected: (dateTime) {}, dayHeight: 70,
                 ),
               );
 
@@ -59,7 +59,7 @@ void main() {
                   firstDate: ParamFactory.firstDate,
                   lastDate: ParamFactory.lastDate,
                   initialDate: ParamFactory.initialDate,
-                  onDateSelected: (dateTime) {},
+                  onDateSelected: (dateTime) {}, dayHeight: 70,
                 ),
               );
 
@@ -76,7 +76,7 @@ void main() {
                   lastDate: ParamFactory.lastDate,
                   initialDate: ParamFactory.initialDate,
                   showYears: ParamFactory.isShowed,
-                  onDateSelected: (dateTime) {},
+                  onDateSelected: (dateTime) {}, dayHeight: 70,
                 ),
               );
 
@@ -96,7 +96,7 @@ void main() {
                 lastDate: ParamFactory.lastDate,
                 initialDate: ParamFactory.initialDate,
                 activeBackgroundDayColor: ParamFactory.activeColor,
-                onDateSelected: (dateTime) {},
+                onDateSelected: (dateTime) {}, dayHeight: 70,
               ),
             );
 
@@ -117,7 +117,7 @@ void main() {
                   firstDate: ParamFactory.firstDate,
                   lastDate: ParamFactory.lastDate,
                   initialDate: ParamFactory.initialDate,
-                  onDateSelected: (dateTime) {},
+                  onDateSelected: (dateTime) {}, dayHeight: 70,
                 ),
               );
 
@@ -150,7 +150,7 @@ void main() {
                   firstDate: ParamFactory.firstDate,
                   lastDate: ParamFactory.lastDate,
                   initialDate: ParamFactory.initialDate,
-                  onDateSelected: (dateTime) => onTap(),
+                  onDateSelected: (dateTime) => onTap(), dayHeight: 70,
                 ),
               );
 
